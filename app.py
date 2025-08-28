@@ -1,7 +1,8 @@
 # app.py — Dashboard de RH (versão ajustada com tratamento de erros visível)
 # Como rodar:
+# 0) Crie um ambiente virtual  ->  python -m venv venv
 # 1) Ative a venv  ->  .venv\Scripts\Activate.ps1   (Windows)  |  source .venv/bin/activate  (Mac/Linux)
-# 2) Instale deps  ->  pip install streamlit pandas numpy plotly openpyxl python-dateutil
+# 2) Instale deps  ->  pip install -r requirements.txt
 # 3) Rode          ->  streamlit run app.py
 
 import os
